@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="super">
+    <h1 id="super-header" >Header</h1>
+    <p id="super-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore fugit aliquid, et eveniet harum dolores, laboriosam, rem culpa pariatur sed perferendis porro blanditiis ullam soluta cum est illum hic dicta?</p>
+    
+    <ul class="super-heroes">
+        <li class="good">Batman</li>
+        <li class="good">Robin</li>
+        <li class="evil">Joker</li>
+        <li class="evil">CatWoman</li>
+    </ul>
+
+</body>
+</html>
+<script>
+    let Header=document.getElementById('super-header');
+
+    let paragraph=document.getElementById('super-paragraph');
+    paragraph.style.backgroundColor='red';
+
+    let body=document.getElementsByTagName('body')[0];
+
+    let heroes=document.getElementsByClassName('super-heroes')[0];
+
+
+    let querySelector=document.querySelectorAll('#super-heroes li');
+
+        console.log(querySelector);
+
+
+    //  let childs = Array.from(heroes.childNodes);
+
+    // childs.forEach((el)=>{
+    //     console.log(el.textContent.trim());
+    // })
+
+    // console.log(childs.length);
+
+    // Header.textContent='Hello from Super Header';
+
+   // console.log(childs);
+</script>
